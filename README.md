@@ -40,3 +40,5 @@ The program reflects my skills and knowledge back in 2012. There are a few impro
 - It should be separated into a library and an executable on top of it.
 - Instead of the textual menus, the executable should work with command line parameters.
 - In-source documentation should be made Doxygen-compatible.
+- General domain shapes (instead of the available square, circle and semicircle) should be enabled. However, this is non-trivial in general, as it requires a reasonable and reliable query to check whether a point is inside or outside. Using implicit functions would be a relatively general way.
+- A better mechanism for preventing points getting outside should be developed; currently, points wondering out are simply dropped back into the domain.
